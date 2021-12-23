@@ -817,13 +817,12 @@ ul {
     justify-content: center;
 }
 
-.modal-checkbox:checked+.check-text svg {
+/* .modal-check:checked + .check-text svg {
     fill: var(--white-color);
     background-color: var(--accent-color);
-    margin-right: 9px;
-}
+} */
 
-.modal-checkbox:checked+.check-text span {
+.modal-check:checked + .check-text span {
     background-color: var(--accent-color);
     border-color: transparent;
 }
@@ -832,7 +831,7 @@ ul {
     fill: transparent;
 }
 
-.modal-checkbox.visually-hidden {
+.modal-check.visually-hidden {
     visibility: hidden;
     position: absolute;
 }
