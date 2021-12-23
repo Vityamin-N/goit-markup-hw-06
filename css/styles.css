@@ -701,18 +701,18 @@ ul {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-close-btn:hover {
+    fill: var(--accent-color);
+}
+
 .modal-close-icon{
     position: absolute;
-    left: 32%;
+    left: 17.22%;
     right: 16.67%;
-    top: 30%;
+    top: 20.67%;
     bottom: 22.22%;
     color: #000;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-close-icon:hover{
-    fill: var(--accent-color);
 }
 
 .modal-title {
